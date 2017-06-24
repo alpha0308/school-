@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Welcome</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');</script>
+<![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+
+<!-- <div class="container">
+  <h1><a href="#">Schooling india</a></h1>
+
+</div>
+ --><div class="wrap">
+  <header>
+    <div class="container">
+    <h1><a href="#">Schooling india</a></h1>
+
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html" class="m1">Home Page</a></li>
+
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m2 dropbtn">About Us</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+          
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m3 dropbtn">Admissions</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+          
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m4 dropbtn">Rules</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m5 dropbtn">Info Corner</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+
+
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m6 dropbtn">Achievements</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+
+
+
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m7 dropbtn">Gallery</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+
+
+
+          <li>
+          <div class="dropdown"><a href="about-us.html" class="m8 dropbtn">Contact</a>
+          <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+          </div>
+          </div></li>
+
+
+        </ul>
+      </nav>
+      <form action="#" id="search-form">
+        <fieldset>
+          <div class="rowElem">
+            <!-- <input type="text" placeholder="Search">
+            <a href="#">Search</a></div> -->
+
+            <script type="text/javascript">
+                    var tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+                    function GetClock(){
+                    var d=new Date();
+                    var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+
+                    var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+                    if(nhour==0){ap=" AM";nhour=12;}
+                    else if(nhour<12){ap=" AM";}
+                    else if(nhour==12){ap=" PM";}
+                    else if(nhour>12){ap=" PM";nhour-=12;}
+
+                    if(nmin<=9) nmin="0"+nmin;
+                    if(nsec<=9) nsec="0"+nsec;
+
+                    document.getElementById('clockbox').innerHTML=""+tmonth[nmonth]+" "+ndate+", "+nyear+"  "+nhour+":"+nmin+":"+nsec+ap+"";
+                    }
+
+                    window.onload=function(){
+                    GetClock();
+                    setInterval(GetClock,1000);
+                    }
+              </script>
+          <div id="clockbox"></div>
+
+           <!--  <script > var date=new Date();
+            document.write(date);</script> -->
+        </fieldset>
+      </form>
+    </div>
+  </header>
+  <div class="container">
+    <aside>
+      <h3>Categories</h3>
+      <ul class="categories">
+        <li><span><a href="#">Programs</a></span></li>
+        <li><span><a href="#">Student Info</a></span></li>
+        <li><span><a href="#">Teachers</a></span></li>
+        <li><span><a href="#">Admissions</a></span></li>
+        <li><span><a href="#">Administration</a></span></li>
+        <li><span><a href="#">Basic Information</a></span></li>
+        <li><span><a href="#">Vacancies</a></span></li>
+        <li class="last"><span><a href="#">Academic Calendar</a></span></li>
+      </ul>
+      <form action="#" id="newsletter-form">
+        <fieldset>
+          <div class="rowElem">
+            <h2>School lettter</h2>
+            <input type="email" value="Enter Your Email Here" onFocus="if(this.value=='Enter Your Email Here'){this.value=''}" onBlur="if(this.value==''){this.value='Enter Your Email Here'}" >
+            <div class="clear"><a href="#" class="fleft">Unsubscribe</a><a href="#" class="fright">Submit</a></div>
+          </div>
+        </fieldset>
+      </form>
+      <h2>Academic <span>Calender</span></h2>
+      <ul class="news">
+        <li><strong>June 30, 2017</strong>
+          <h4><a href="#">1<sup>st</sup> parents-teacher meeting</a></h4>
+          parents are requested to be present by 11:00 am sharp </li>
+        <li><strong>June 14, 2017</strong>
+          <h4><a href="#">Start of new term</a></h4>
+         Students should be present on the 1st day timings are from 8:00 am to 2:00 pm </li>
+        <li><strong>May 29, 2017</strong>
+          <h4><a href="#">Result declaration</a></h4>
+          Report card distribution will start at 9:00pm</li>
+        <li>
+          <h4><a href="#">See more...</a></h4></li>
+      </ul>
+    </aside>
+    <section id="content">
+      <div id="banner">
+        <h2>Educating <span>India <span>Since 1992</span></span></h2>
+      </div>
+      <div class="inside">
+        <h2>Recent <span>News</span></h2>
+        <ul class="list">
+          <li><span><img src="images/icon1.png"></span>
+            <h4>About Us</h4>
+            <p>This is the region wherein you can give a brief description of your school and its pros. Maybe you can give a read more option too.</p>
+          </li>
+          <li><span><img src="images/icon2.png"></span>
+            <h4>Our Branches</h4>
+            <p>We have branches in following areas<br><ul style="color: #008cc4">
+            <li><strong>Branch 1</strong></li>
+            <li><strong>Branch 2</strong></li>
+            <li><strong>Branch 3</strong></li>
+            <li><strong>Branch 4</strong></li></ul></p>
+          </li>
+          <li class="last"><span><img src="images/icon3.png"></span>
+            <h4>Student’s Life</h4>
+            <p>In this region you can include the alumini students and their profile, recent performance of students in competitions or olympiads</p>
+          </li>
+        </ul>
+        <h2>Move Forward <span>With Your Education</span></h2>
+        <p><span class="txt1">XYZ school</span>,our school follows the moto of jai Jagat: praise the world. We strive to provide education for everyone</p>
+        <div class="img-box"><img src="images/1page-img.jpg">Harbouring students from all over the city, with its distingused faculty and staff, we strive to provide excellent education with appropriate details and diversity in knowledge to prrepare better citizens fro a better tomorrow. Having eastablished in 1992, our schoolhas crossed many milestones and from time to time proved its worth by winning competitions and olympiad all over the world</div>
+        <p class="p0"></p>
+      </div>
+    </section>
+  </div>
+</div>
+<footer>
+  <div class="footerlink">
+    <p class="lf">Copyright &copy; 2017 <a href="#">SiteName</a> - All Rights Reserved</p>
+    <p class="rf">Design by <a href="#">Rohit Jaiswal</a></p>
+    <div style="clear:both;"></div>
+  </div>
+</footer>
+<script type="text/javascript"> Cufon.now(); </script>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
